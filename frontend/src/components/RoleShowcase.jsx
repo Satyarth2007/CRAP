@@ -105,13 +105,6 @@ export default function RoleShowcase({ onOpenAuth }) {
                 </li>
               ))}
             </ul>
-
-            <button
-              className="btn btn-primary"
-              onClick={() => onOpenAuth(activeRole === 'tpo' ? 'tpo' : 'student')}
-            >
-              Access {activeRole === 'tpo' ? 'TPO Command' : 'Student Portal'}
-            </button>
           </div>
 
           <div className="role-preview-box">

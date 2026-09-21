@@ -1,2 +1,6 @@
 cras-auth
 document
+node_modules/
+**/node_modules/
+dist/
+**/dist/
